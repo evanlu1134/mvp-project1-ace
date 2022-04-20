@@ -11,7 +11,7 @@ nav {
   display:flex;
   justify-content:space-between;
   background-image:url(https://www.sap.com/dam/application/imagelibrary/photos/278000/278132.jpg/_jcr_content/renditions/278132_photo_2480_0676.jpg.adapt.1920_522.false.false.false.false.jpg/1588261069982.jpg);
-  background-size:75%;
+  background-size:auto;
 }
 
 h1 {
@@ -44,9 +44,11 @@ main {
     display:flex;
     flex-direction:row;
     align-items:center;
-    justify-content:center;
-    width:1000px;
+    justify-content:left;
+    width:100%;
     margin:auto;
+   font-weight:10em;
+   color:red;
 }
 
 .sectimg {
@@ -72,4 +74,47 @@ footer ol {
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
+}
+
+@media only screen and (max-width:750px) {
+    .sectimg {
+        display:none;
+    }
+    #p1, #p2, #p3 {
+        display:flex;
+        flex-direction:column;
+        margin:auto;
+        padding:30px;
+        color:blue;
+        font-weight:10em;
+    }
+
+}
+
+
+@media only screen and (max-width:625px) {
+    nav{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  .fig1 {
+      width:500px;
+  }
+  footer ol {
+      text-align: center;
+      color:skyblue;
+  }
+}
+
+
+@media only screen and (max-width:560px) {
+    .fig1 {
+        width:350px;
+    }
+    #video {
+        width:400px;
+        height:200px;
+    }
 }
