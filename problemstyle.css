@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+nav {
+  position:sticky;
+  top:0;
+  display:flex;
+  justify-content:space-between;
+  background-image:url(https://www.sap.com/dam/application/imagelibrary/photos/278000/278132.jpg/_jcr_content/renditions/278132_photo_2480_0676.jpg.adapt.1920_522.false.false.false.false.jpg/1588261069982.jpg);
+  background-size:75%;
+}
+
+h1 {
+    margin:50px;
+}
+
+.fig1 {
+  display:flex;
+  margin:auto;
+  padding:20px;
+}
+
+
+#navbar, li {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    list-style: none;
+    padding:25px;
+}
+
+main {
+    display:flex;
+    background-image: url(https://wallpapercave.com/wp/wp2354251.jpg);
+    background-size:cover;
+    flex-direction:column;
+}
+
+.sect {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    width:1000px;
+    margin:auto;
+}
+
+.sectimg {
+    display:flex;
+    padding:10px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+    
+#video {
+  display:flex;
+  margin:auto;
+  padding:20px;
+}
+
+
+footer ol {
+    background-image:url(https://www.dailymaverick.co.za/wp-content/uploads/2021/05/Tiara-OBPeditorialaunch-option-1.jpeg);
+    background-size:cover;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
